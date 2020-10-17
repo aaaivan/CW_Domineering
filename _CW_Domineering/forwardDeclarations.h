@@ -29,5 +29,5 @@ int getPlayerInputCol(int size);
 void placeNewPiece(Board &board, const Player &p);
 bool saveGame(const Board &board, const Player &p1, const Player &p2);
 bool loadGame(Board &board, Player &p1, Player &p2);
-
+void deallocateMemoryArray(Board& board);
 #endif // !FORWARD_DECLARATIONS

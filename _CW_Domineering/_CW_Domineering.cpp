@@ -19,6 +19,7 @@ int main()
 	//MAIN LOOP
 	while (true)
 	{
+		deallocateMemoryArray(board);
 		optionSelected = mainMenu(); //return 'Q', 'N' or 'L'
 		//Quit programme
 		if (optionSelected == 'Q')
